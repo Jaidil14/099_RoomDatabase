@@ -6,6 +6,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 
+
 @Dao
 interface SiswaDao {
     @Query("SELECT * FROM tblSiswa ORDER BY nama ASC")
